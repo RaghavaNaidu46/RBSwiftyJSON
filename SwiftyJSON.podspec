@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name        = "RBSwiftyJSON"
+  s.name        = "SwiftyJSON"
   s.version     = "4.2.0"
   s.summary     = "RBSwiftyJSON makes it easy to deal with JSON data in Swift"
   s.homepage    = "https://github.com/RaghavaNaidu46/RBSwiftyJSON"
