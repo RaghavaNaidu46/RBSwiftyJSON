@@ -761,6 +761,19 @@ extension JSON {
         }
     }
 
+    //Optional [String : Any]
+    public var standerdDictionary: [String: Any]? {
+        if self.type == .dictionary {
+            var d = [String: Any]()
+            for (key, value) in rawDictionary {
+                d[key] = value
+            }
+            return d
+        } else {
+            return nil
+        }
+    }
+    
     //Non-optional [String : JSON]
     public var dictionaryValue: [String: JSON] {
         return self.dictionary ?? [:]
