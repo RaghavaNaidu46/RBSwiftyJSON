@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
-  s.name        = "SwiftyJSON"
+  s.name        = "RBSwiftyJSON"
   s.version     = "4.2.0"
-  s.summary     = "SwiftyJSON makes it easy to deal with JSON data in Swift"
-  s.homepage    = "https://github.com/SwiftyJSON/SwiftyJSON"
+  s.summary     = "RBSwiftyJSON makes it easy to deal with JSON data in Swift"
+  s.homepage    = "https://github.com/RaghavaNaidu46/RBSwiftyJSON"
   s.license     = { :type => "MIT" }
-  s.authors     = { "lingoer" => "lingoerer@gmail.com", "tangplin" => "tangplin@gmail.com" }
+  s.authors     = { "lingoer" => "raghava.dokala@gmail.com", "tangplin" => "raghava.dokala@gmail.com" }
 
   s.requires_arc = true
   s.swift_version = "4.2"
@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
   s.watchos.deployment_target = "3.0"
   s.tvos.deployment_target = "9.0"
-  s.source   = { :git => "https://github.com/SwiftyJSON/SwiftyJSON.git", :tag => s.version }
+  s.source   = { :git => "https://github.com/RaghavaNaidu46/RBSwiftyJSON.git", :tag => s.version }
   s.source_files = "Source/*.swift"
 end
